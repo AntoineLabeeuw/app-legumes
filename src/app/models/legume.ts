@@ -1,5 +1,5 @@
 export interface Legume {
   nom: string,
-  descirption: string,
+  description: string,
   photoUrl: string
 }
