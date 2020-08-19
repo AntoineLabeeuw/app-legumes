@@ -13,18 +13,18 @@ export const listeLegumes: Legume[] = [
   },
   {
     nom: "Citrouille",
-    description: "bla",
+    description: "Cucurbitacée pouvant pesée jusqu'à 50kg qui se consomme principalement en automne.",
     photoUrl: "./assets/images/citrouille.jpg"
   },
   {
     nom: "Courgette",
-    description: "Cucurbitacée pouvant pesée jusqu'à 50kg qui se consomme principalement en automne.",
+    description: "Cucurbitacée courant en été, sa fleur peut se consommée farcie.",
     photoUrl: "./assets/images/courgette.jpg"
   },
   {
-    nom: "Bettave",
-    description: "Légume-racine que l'on trouve de mai à octobre, la bettravue est aussi utilisée pour la production de sucre.",
-    photoUrl: "./assets/images/bettrave.jpg"
+    nom: "Betterave",
+    description: "Légume-racine que l'on trouve de mai à octobre, la betterave est aussi utilisée pour la production de sucre.",
+    photoUrl: "./assets/images/betterave.jpg"
   },
   {
     nom: "Pomme de terre",

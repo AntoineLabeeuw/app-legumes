@@ -11,13 +11,13 @@ Cette application recence plusieurs légumes. Dans la galerie, vous pouvez cliqu
 
 ## Accueil
 
-Ceci est la page d'accueil on ne peut plus simple.
+Cette page est la page d'accueil de notre application. D'ici, vous pouvez naviguer à travers les différentes pages grâce aux liens dans la barre de navigation.
 
 ![accueil](./src/assets/githubImages/accueil.png)
 
 ## Galerie
 
-Cette page vous permet de plongez au pays des légumes, et de connaitre leur histoire.
+Ici, vous pouvez naviguer au pays des légumes, et vous laisser bercer par leur histoire. En cliquant sur l'image d'un légume, vous pourrez découvrir ce qui se cache derrière...
 
 ![galerie](./src/assets/githubImages/galerie.png)
 
