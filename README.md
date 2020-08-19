@@ -13,7 +13,7 @@ Cette page vous permet d'en savoir plus sur nous !
 
 ## Build
 
-ajouter build status quand il sera deployé sur travis
+[![Build Status](https://travis-ci.org/AntoineLabeeuw/app-legumes.svg?branch=master)](https://travis-ci.org/AntoineLabeeuw/app-legumes)
 
 ## Nous contacter
 
