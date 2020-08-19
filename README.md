@@ -1,8 +1,8 @@
 # App Legumes
 
 [![Build Status](https://travis-ci.org/AntoineLabeeuw/app-legumes.svg?branch=master)](https://travis-ci.org/AntoineLabeeuw/app-legumes)
-
-Ce projet a été créé à partir d'[Angular](https://github.com/angular/angular-cli) version 10.0.4.  
+[![Angular Version](https://img.shields.io/badge/angular-%3E%3D10.0.4-success)](https://github.com/angular/angular-cli)
+[![Ng-boostrap Version](https://img.shields.io/badge/ng--bootstrap-%3E%3D7.0.0-success)](https://ng-bootstrap.github.io/#/home)
 L'application est disponible [ici](https://antoinelabeeuw.github.io/app-legumes).
 
 ## Que fait App Legumes ?
