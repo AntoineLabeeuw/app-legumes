@@ -7,6 +7,7 @@ import { Route, RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { MenuComponent } from './menu/menu.component';
+import { RechercheComponent } from './recherche/recherche.component';
 
 const ROUTES: Routes = [
   { path: 'accueil', component: AccueilComponent},
@@ -20,7 +21,8 @@ const ROUTES: Routes = [
     AppComponent,
     AccueilComponent,
     AproposComponent,
-    MenuComponent
+    MenuComponent,
+    RechercheComponent
   ],
   imports: [
     BrowserModule,

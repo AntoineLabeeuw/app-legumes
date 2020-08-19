@@ -13,12 +13,12 @@ export const listeLegumes: Legume[] = [
   },
   {
     nom: "Citrouille",
-    description: "bla",
+    description: "Cucurbitacée pouvant pesée jusqu'à 50kg qui se consomme principalement en automne.",
     photoUrl: "./assets/images/citrouille.jpg"
   },
   {
     nom: "Courgette",
-    description: "Cucurbitacée pouvant pesée jusqu'à 50kg qui se consomme principalement en automne.",
+    description: "Cucurbitacée courant en été, sa fleur peut se consommée farcie.",
     photoUrl: "./assets/images/courgette.jpg"
   },
   {
