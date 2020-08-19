@@ -1,5 +1,8 @@
 <div class="container-fluid">
   <div class="row">
+    <app-recherche></app-recherche>
+  </div>
+  <div class="row">
     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 my-5" *ngFor="let leg of listeLegumes">
       <div class="card">
         <img class="card-img-top" src="{{leg.photoUrl}}" alt="Image not found">
