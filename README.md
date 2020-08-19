@@ -1,6 +1,7 @@
 # AppLegumes
 
-Ce projet a été crée en [Angular](https://github.com/angular/angular-cli) version 10.0.4.
+Ce projet a été crée en [Angular](https://github.com/angular/angular-cli) version 10.0.4.  
+Elle est disponible [ici](https://antoinelabeeuw.github.io/app-legumes/accueil) 
 
 ## app legumes, c'est quoi ?
 
