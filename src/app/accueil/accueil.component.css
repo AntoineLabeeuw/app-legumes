@@ -1,9 +1,11 @@
 .jumbotron {
   padding: 10px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .accueil {
+  text-align: center;
   padding-top: 10px;
   padding-left: 10px;
 }
