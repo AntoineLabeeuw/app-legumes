@@ -7,6 +7,7 @@ import { Route, RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { MenuComponent } from './menu/menu.component';
+import { GalerieComponent } from './galerie/galerie.component';
 
 const ROUTES: Routes = [
   { path: 'accueil', component: AccueilComponent},
@@ -19,6 +20,7 @@ const ROUTES: Routes = [
   declarations: [
     AppComponent,
     AccueilComponent,
+    GalerieComponent,
     AproposComponent,
     MenuComponent
   ],
