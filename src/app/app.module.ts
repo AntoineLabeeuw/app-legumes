@@ -13,7 +13,7 @@ const ROUTES: Routes = [
   { path: 'accueil', component: AccueilComponent},
   { path: 'galerie', component: GalerieComponent},
   { path: 'apropos', component: AproposComponent},
-  //{ path: '', pathMatch: 'full', redirectTo: '/accueil' },
+  { path: '', pathMatch: 'full', redirectTo: '/accueil' },
 ];
 
 @NgModule({
