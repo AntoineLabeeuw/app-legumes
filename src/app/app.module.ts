@@ -1,10 +1,10 @@
+import { AproposComponent } from './apropos/apropos.component';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { Route, RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
-
 import { MenuComponent } from './menu/menu.component';
 
 const ROUTES: Routes = [
@@ -17,7 +17,7 @@ const ROUTES: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    AproposComponent
+    AproposComponent,
     MenuComponent
   ],
   imports: [
