@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { Route, RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
+import { GalerieComponent } from './galerie/galerie.component';
 
 const ROUTES: Routes = [
   //{ path: 'accueil', component: AccueilComponent},
@@ -16,7 +17,8 @@ const ROUTES: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    GalerieComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 my-5" *ngFor="let leg of listeLegumes">
+      <div class="card">
+        <img class="card-img-top" src="{{leg.photoUrl}}" alt="Image not found">
+        <div class="card-body">
+          <h5 class="card-title">{{leg.nom}}</h5>
+          <p class="card-text">{{leg.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
