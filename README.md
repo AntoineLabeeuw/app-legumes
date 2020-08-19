@@ -21,6 +21,8 @@ Ici, vous pouvez naviguer au pays des légumes, et vous laisser bercer par leur 
 
 ![galerie](./src/assets/githubImages/galerie.png)
 
+![modal](./src/assets/githubImages/modal.png)
+
 ## A propos
 
 Cette page vous permet d'en savoir plus sur nous !
