@@ -1,17 +1,29 @@
 <div class="input-group mb-3">
   <input type="text" id="input" class="form-control" value="Recherche" onFocus="if (this.value=='Recherche') {this.value=''}" aria-label="Recherche" aria-describedby="button-addon2">
   <div class="input-group-append">
-    <button class="btn btn-outline-secondary" type="button" id="button-addon2" (click)="rechercher()">Rechercher</button>
+    <!-- Button trigger modal -->
+    <button class="btn btn-outline-secondary mr-2 bouton" type="button" id="button-addon2" (click)="open(content)">Rechercher</button>
   </div>
 </div>
 
 
-<div *ngIf="recherche">
-  <p *ngIf="legumeSlect==null">{{message}}</p>
-  <div *ngIf="legumeSelect != null">
-    <p>{{ legumeSelect.nom }}</p>
-  <p>{{legumeSelect.description}}</p>
+<!--Modal-->
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 *ngIf="legumeSelect" class="modal-title" id="modal-basic-title">{{legumeSelect.nom}}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
   </div>
-</div>
+  <div class="modal-body">
 
+    <div *ngIf="recherche">
+      <p *ngIf="message">{{message}}</p>
+      <div *ngIf="legumeSelect">
+      <p>{{legumeSelect.description}}</p>
+      <img src="{{legumeSelect.photoUrl}}" alt="{{ legumeSelect.nom }}">
+      </div>
+    </div>
 
+  </div>
+</ng-template>

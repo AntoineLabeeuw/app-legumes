@@ -1,6 +1,7 @@
 import { listeLegumes } from './../mock/legume.mock';
 import { Component, OnInit } from '@angular/core';
 import { Legume } from '../models/legume';
+import { NgbModalConfig, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-recherche',
@@ -12,17 +13,19 @@ export class RechercheComponent implements OnInit {
   liste: Legume[];
   legumeSelect: Legume = null;
   message: string;
-  recherche:boolean = false;
+  recherche: boolean = false;
 
-  constructor() {
+  constructor(config: NgbModalConfig, private modalService: NgbModal) {
     this.liste = listeLegumes;
+    config.backdrop = 'static';
+    config.keyboard = false;
   }
 
   ngOnInit(): void {
   }
 
   rechercher(): void{
-    this.message =null;
+    this.message = null;
     this.legumeSelect = null;
     const nom: string = (document.getElementById('input') as HTMLInputElement).value;
     if (nom === ''){
@@ -30,23 +33,28 @@ export class RechercheComponent implements OnInit {
       this.message = 'Veuillez saisir le nom d\'un légume';
     }
     else{
-      let i: number;
       listeLegumes.forEach(value => {
         if(value.nom.toUpperCase().includes(nom.toUpperCase())){
           const legume: Legume = {
             nom: value.nom,
             description: value.description,
             photoUrl: value.photoUrl
-          }
+          };
           this.legumeSelect = legume;
-        };
-      })
-      if(this.legumeSelect == null){
+        }
+      });
+      if (this.legumeSelect == null){
         this.legumeSelect = null;
         this.message = 'Ce légume n\'est pas encore répertorié';
       }
     }
     this.recherche = true;
+  }
+
+  // modal
+  open(content): void {
+    this.rechercher();
+    this.modalService.open(content);
   }
 
 }
