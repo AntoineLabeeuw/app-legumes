@@ -22,9 +22,9 @@ export const listeLegumes: Legume[] = [
     photoUrl: "./assets/images/courgette.jpg"
   },
   {
-    nom: "Bettave",
-    description: "Légume-racine que l'on trouve de mai à octobre, la bettravue est aussi utilisée pour la production de sucre.",
-    photoUrl: "./assets/images/bettrave.jpg"
+    nom: "Betterave",
+    description: "Légume-racine que l'on trouve de mai à octobre, la betterave est aussi utilisée pour la production de sucre.",
+    photoUrl: "./assets/images/betterave.jpg"
   },
   {
     nom: "Pomme de terre",
