@@ -1,0 +1,17 @@
+<div class="input-group mb-3">
+  <input type="text" id="input" class="form-control" value="Recherche" onFocus="if (this.value=='Recherche') {this.value=''}" aria-label="Recherche" aria-describedby="button-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2" (click)="rechercher()">Rechercher</button>
+  </div>
+</div>
+
+
+<div *ngIf="recherche">
+  <p *ngIf="legumeSlect==null">{{message}}</p>
+  <div *ngIf="legumeSelect != null">
+    <p>{{ legumeSelect.nom }}</p>
+  <p>{{legumeSelect.description}}</p>
+  </div>
+</div>
+
+

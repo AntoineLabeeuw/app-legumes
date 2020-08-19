@@ -7,6 +7,7 @@ import { Route, RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { MenuComponent } from './menu/menu.component';
+import { RechercheComponent } from './recherche/recherche.component';
 import { GalerieComponent } from './galerie/galerie.component';
 
 const ROUTES: Routes = [
@@ -22,7 +23,8 @@ const ROUTES: Routes = [
     AccueilComponent,
     GalerieComponent,
     AproposComponent,
-    MenuComponent
+    MenuComponent,
+    RechercheComponent
   ],
   imports: [
     BrowserModule,
