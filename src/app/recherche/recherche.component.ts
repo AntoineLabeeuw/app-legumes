@@ -32,7 +32,7 @@ export class RechercheComponent implements OnInit {
     else{
       let i: number;
       listeLegumes.forEach(value => {
-        if(value.nom.includes(nom)){
+        if(value.nom.toUpperCase().includes(nom.toUpperCase())){
           const legume: Legume = {
             nom: value.nom,
             description: value.description,
