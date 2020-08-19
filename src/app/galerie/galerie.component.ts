@@ -1,5 +1,6 @@
 import { Legume } from './../models/legume';
 import { Component, OnInit } from '@angular/core';
+import { listeLegumes } from '../mock/legume.mock';
 
 @Component({
   selector: 'app-galerie',
@@ -12,6 +13,7 @@ export class GalerieComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.listeLegumes = listeLegumes;
   }
 
 }

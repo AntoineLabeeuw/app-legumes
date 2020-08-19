@@ -11,7 +11,7 @@ import { GalerieComponent } from './galerie/galerie.component';
 
 const ROUTES: Routes = [
   { path: 'accueil', component: AccueilComponent},
-  //{ path: 'galerie', component: GalerieComponent},
+  { path: 'galerie', component: GalerieComponent},
   { path: 'apropos', component: AproposComponent},
   //{ path: '', pathMatch: 'full', redirectTo: '/accueil' },
 ];
