@@ -18,7 +18,7 @@ const ROUTES: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    AccueilComponent
+    AccueilComponent,
     AproposComponent,
     MenuComponent
   ],
