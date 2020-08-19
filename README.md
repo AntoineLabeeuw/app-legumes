@@ -9,11 +9,23 @@ L'application est disponible [ici](https://antoinelabeeuw.github.io/app-legumes)
 
 Cette application recence plusieurs légumes. Dans la galerie, vous pouvez cliquer sur les images afin d'avoir plus d'informations sur leur histoire, et comment les cuisiner.
 
+## Accueil
+
+Ceci est la page d'accueil on ne peut plus simple.
+
+![accueil](./src/assets/githubImages/accueil.png)
+
+## Galerie
+
+Cette page vous permet de plongez au pays des légumes, et de connaitre leur histoire.
+
+![galerie](./src/assets/githubImages/galerie.png)
+
 ## A propos
 
 Cette page vous permet d'en savoir plus sur nous !
 
-![apropos](/githubImages/apropos.png)
+![apropos](./src/assets/githubImages/apropos.png)
 
 ## Nous contacter
 
